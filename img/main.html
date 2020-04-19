@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <title>Test Telebreeze</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header></header>
+        
+            <div class="flex-container_head" id="header">
+                <img src="icons/phone.png" alt="phone" class="flex-container_element-1" height="64px" id="one">
+                <img src="icons/tablet.png" alt="tablet" class="flex-container_element-2" height="64px" id="two">
+                <img src="icons/pc.png" alt="pc" class="flex-container_element-3" height="64px" id="three">
+            </div>
+        
+        <div class="blackline">
+            <button onclick="document.getElementById('sidebared').classList.toggle('open')">Menu</button>
+        </div>
+
+        <div id="sidebared">
+            <button onclick="document.getElementById('sidebared').classList.remove('open')" id="closebutton">
+                <img src="icons/Cross-lines.png" alt="X" width="30px" height="30px">
+            </button>
+
+            <div class="sidediv flex-container" >
+                <div id="0">
+                </div>
+                <button class = "buttonside" onclick="numberside=0"> 
+                    <img src="icons/arrow_right.jpg"  class="reverseimg" alt="X" width="30px" height="30px">
+                </button>
+            </div>
+
+            <div class="sidediv flex-container">
+                <div id="1">
+                </div>
+                <button class = "buttonside" onclick="numberside=1"> 
+                    <img src="icons/arrow_right.jpg" class="reverseimg" alt="X" width="30px" height="30px">
+                </button >
+            </div>
+
+            <div class="sidediv flex-container">
+                <div id="2">
+                </div>
+                <button class = "buttonside" onclick="numberside=2"> 
+                    <img src="icons/arrow_right.jpg" class="reverseimg" alt="X" width="30px" height="30px">
+                </button>
+            </div>
+
+            <div class="sidediv flex-container">
+                <div id="3">
+                </div>
+                <button class = "buttonside" onclick="numberside=3"> 
+                    <img src="icons/arrow_right.jpg" class="reverseimg" alt="X" width="30px" height="30px">
+                </button>
+            </div>
+
+            <div class="sidediv flex-container">
+                <div id="4">
+                </div>
+                <button class = "buttonside" onclick="numberside=4"> 
+                    <img src="icons/arrow_right.jpg" class="reverseimg" alt="X" width="30px" height="30px">
+                </button>
+            </div>
+        </div>
+
+        <div class="flex-container_body" id="body">
+            <div class="flex-container_element-1" id="image">
+                <!-- <img src="image/main.png" alt="main image" width="300px" height="300px"> -->
+            </div>
+            <div class="flex-container_element-2" id="text_right">
+            </div>
+        </div>
+        
+    </body>
+    <script src="script.js" type="text/javascript"></script>
+</html>
