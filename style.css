@@ -33,13 +33,41 @@
 
 .components {
     height: 65px;
-font-size: 18px;
-line-height: 60px;
+    font-size: 18px;
+    line-height: 60px;
 }
 
 .element {
     border: 4px double black;
+    text-decoration: none;
+    
+}
+.subElement {
+    color: blanchedalmond !important;    
+}
+.subElement:visited {
+    color: blanchedalmond !important;
+}
+.subElement:hover {
+    color: blanchedalmond !important;
+    text-decoration: none !important;
 }
 ul li{
     list-style-type: none;
+}
+
+.selected {
+    border: 1px double black;
+}
+
+.subtext {
+    margin-top: -15px;
+    margin-bottom: -15px;
+    font-size: small;
+
+}
+
+.arrow_right {
+    height: 50px;
+    float: right;
 }
