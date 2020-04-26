@@ -68,6 +68,7 @@ ul li{
 }
 
 .arrow_right {
+    margin-top: -60px;
     height: 50px;
     float: right;
 }
