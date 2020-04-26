@@ -40,7 +40,7 @@
 .element {
     border: 4px double black;
     text-decoration: none;
-    
+    height: 80px;
 }
 .subElement {
     color: blanchedalmond !important;    
@@ -68,7 +68,7 @@ ul li{
 }
 
 .arrow_right {
-    margin-top: -60px;
+    /* margin-top: -60px; */
     height: 50px;
     float: right;
 }
